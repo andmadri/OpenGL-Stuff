@@ -3,7 +3,7 @@ SRC = $(wildcard src/*.cpp) $(wildcard src/*.c)
 CXX = clang
 CXXFLAGS = -Wall -Werror -Wextra
 INCLUDES = -Iglad/include
-LIBS = -lglfw -lGL -ldl
+LIBS = -lglfw -lGL -ldl -lm
 RM = rm -rf
 
 all: $(NAME)
